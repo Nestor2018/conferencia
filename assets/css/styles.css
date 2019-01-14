@@ -1,0 +1,80 @@
+/*------------------------------*\
+     $COLORS
+\*------------------------------*/
+#footer {
+  background: #062a39; }
+
+/*------------------------------*\
+     $TABLAS
+\*------------------------------*/
+/*------------------------------*\
+     $BUTOMS
+\*------------------------------*/
+.btn-verde {
+  background-color: #97c93e;
+  color: white; }
+
+.btn-verde:hover {
+  background-color: #82ad36; }
+
+/*------------------------------*\
+     $LINKS
+\*------------------------------*/
+.text-webbidor {
+  color: #97c93e !important; }
+
+#footer a {
+  color: white; }
+
+/*------------------------------*\
+     $TIPOGRAFIA
+\*------------------------------*/
+/*------------------------------*\
+     $IMAGENES
+\*------------------------------*/
+#header img {
+  width: 60px; }
+
+#main .carousel-inner img {
+  max-height: 70vh;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -webkit-filter: grayscale(70%);
+  filter: grayscale(70%); }
+
+.alto-img {
+  height: 200px;
+  -o-object-fit: contain;
+  object-fit: contain; }
+
+#lugar-tiempo img {
+  max-width: 100%; }
+
+/*------------------------------*\
+     $GRIDS
+\*------------------------------*/
+/*------------------------------*\
+     $LAYOUT
+\*------------------------------*/
+/*------------------------------*\
+     $UTILITIES
+\*------------------------------*/
+#carousel {
+  position: relative; }
+
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white; }
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%; }
+
+#lugar-tiempo {
+  background-color: #343a40;
+  color: white; }

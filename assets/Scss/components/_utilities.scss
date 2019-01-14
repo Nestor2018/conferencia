@@ -1,0 +1,27 @@
+/*------------------------------*\
+     $UTILITIES
+\*------------------------------*/
+
+#carousel {
+	position: relative; 
+}
+
+#carousel .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: $color-white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+	height: 100%;
+}
+
+#lugar-tiempo { 
+	background-color: $color-header;
+	color: $color-white;
+}
